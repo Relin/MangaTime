@@ -87,3 +87,27 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# -----------------
+
+# Settings
+local_settings.py
+
+# Gedit
+*~
+
+# Migrations folder
+MangaTime/*/migrations/*
+
+
+# Static_root folder
+MangaTime/static_root/*
+
+# Components folder
+MangaTime/components/components/*
+
+# bower stuff
+MangaTime/components/bower_components/*
+
+# media file
+MangaTime/media/*
