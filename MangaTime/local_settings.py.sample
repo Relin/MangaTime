@@ -1,0 +1,21 @@
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        'NAME': 'mangatime',
+        'USER': 'mangatime',
+        'PASSWORD': 'mangatime',
+        'HOST': 'postgis',
+        'PORT': '5432',
+    }
+}
+
+CACHES = {
+    'default': {
+        'BACKEND': 'redis_cache.RedisCache',
+        #'BACKEND': 'django.core.cache.backends.dummy.DummyCache',      # If you're not on docker.
+        #'LOCATION': '/var/run/redis/redis.sock',
+        'LOCATION': [
+            'redis:6379',
+        ],
+    },
+}

@@ -9,6 +9,7 @@ django_compressor==2.1.1
 django-filter==1.0.2
 django-fsm==2.5.0
 django-modeltranslation==0.12.1
+#django-npm==1.0.0
 django-redis-cache==1.7.1
 django-scheduler==0.8.4
 flake8==3.3.0
