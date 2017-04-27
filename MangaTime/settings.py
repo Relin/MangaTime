@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 
 MANGATIME_APPS = [
     'MangaTime.administration',
+    'MangaTime.people',
     'MangaTime.manga',
     'MangaTime',
 ]
