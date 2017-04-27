@@ -7,7 +7,6 @@ from django.shortcuts import get_object_or_404
 
 logger = logging.getLogger("MangaTime.people.models")
 
-
 class People (models.Model):
 
     id = models.AutoField(primary_key=True)
