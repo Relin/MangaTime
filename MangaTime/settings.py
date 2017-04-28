@@ -173,3 +173,5 @@ BOWER_INSTALLED_APPS = [
     'bootstrap#3.3.7',
     'fullcalendar#3.3.1',
 ]
+
+AUTH_USER_MODEL = 'administration.User'
