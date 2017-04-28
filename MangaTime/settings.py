@@ -46,6 +46,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_fsm',
+    'bootstrap3',
+    'djangobower',
+    'compressor',
+    'schedule',
 ] + MANGATIME_APPS
 
 MIDDLEWARE = [
